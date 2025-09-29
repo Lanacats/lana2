@@ -3501,7 +3501,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 2.51
   MinDistance: 5
-  MaxDistance: 50
+  MaxDistance: 12.778024
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4142,13 +4142,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPSPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 2821417639109173467, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: sensitivityX
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821417639109173467, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: sensitivityY
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: gravity
       value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: moveSpeed
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: groundMask.m_Bits
