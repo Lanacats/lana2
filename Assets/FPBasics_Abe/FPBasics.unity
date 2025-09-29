@@ -573,7 +573,7 @@ PrefabInstance:
     - target: {fileID: -5754732837579649886, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7b35780ed50318343900c3817ce9af13, type: 2}
+      objectReference: {fileID: 2100000, guid: 2527419948f14e84ea3c69bcb004089b, type: 2}
     - target: {fileID: -5754060345647867467, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_Name
       value: FridgePhoto4
@@ -697,7 +697,7 @@ PrefabInstance:
     - target: {fileID: -2947538861075970057, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6c932e9b507b92145b848c6cdb1c28d9, type: 2}
+      objectReference: {fileID: 2100000, guid: 2859f4c5021dc2c46947917c3ebbec3f, type: 2}
     - target: {fileID: -2914413575082383075, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_Layer
       value: 3
