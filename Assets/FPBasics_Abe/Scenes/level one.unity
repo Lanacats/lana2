@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 208806845}
   - component: {fileID: 208806844}
   m_Layer: 3
-  m_Name: wallroom2 (4)
+  m_Name: wallroom7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1050,7 +1050,7 @@ PrefabInstance:
     - target: {fileID: -4791300549530949414, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 08614b0bf0c469446b56f23e0b41154f, type: 2}
+      objectReference: {fileID: 2100000, guid: 72b7e8e77908dd249b19a65d37ad2520, type: 2}
     - target: {fileID: -4754517362714280869, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1066,7 +1066,7 @@ PrefabInstance:
     - target: {fileID: -3856571041627856340, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 892058b47d871224c984fb7a59c9c0af, type: 2}
+      objectReference: {fileID: 2100000, guid: 95752deb208207049a5ff8fc7fb54b9c, type: 2}
     - target: {fileID: -3798597711559607027, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1339,6 +1339,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 836453291944497873, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 836453291944497873, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 836453291944497873, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.16
+      objectReference: {fileID: 0}
     - target: {fileID: 895425838269697267, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1431,6 +1443,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 794bea04ab079784bb3cf5cbd56ef32d, type: 2}
+    - target: {fileID: 4088688947297397964, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4088688947297397964, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4088688947297397964, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.37
+      objectReference: {fileID: 0}
     - target: {fileID: 4214726985332892257, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1445,19 +1469,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4418473098069316928, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 415.08987
+      value: 385.09546
       objectReference: {fileID: 0}
     - target: {fileID: 4418473098069316928, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.225962
+      value: 10.23
       objectReference: {fileID: 0}
     - target: {fileID: 4418473098069316928, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.598672
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 4418473098069316928, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.072746
+      value: 7.07
       objectReference: {fileID: 0}
     - target: {fileID: 4418473098069316928, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1638,7 +1662,7 @@ PrefabInstance:
     - target: {fileID: 6947464325843983966, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 892058b47d871224c984fb7a59c9c0af, type: 2}
+      objectReference: {fileID: 2100000, guid: 23a0c1490f3fcde42980d51ce7a957e2, type: 2}
     - target: {fileID: 6979220930480056898, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1718,7 +1742,7 @@ PrefabInstance:
     - target: {fileID: 8616184511030011274, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6c932e9b507b92145b848c6cdb1c28d9, type: 2}
+      objectReference: {fileID: 2100000, guid: 95752deb208207049a5ff8fc7fb54b9c, type: 2}
     - target: {fileID: 8700725330082129686, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1785,9 +1809,12 @@ PrefabInstance:
     - {fileID: 8513859187771203891, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
     - {fileID: -5568371526223589888, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
     - {fileID: 1835210009659533079, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+    - {fileID: 8485173162082002552, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+    - {fileID: -3410185793394415013, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
+    - {fileID: -7640558969779515294, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
-      insertIndex: 5
+      insertIndex: 4
       addedObject: {fileID: 75681176}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c1d62ac88e4dd4426991672d4f6fdcf7, type: 3}
@@ -1845,7 +1872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fbe68f75ba3dc6b48a72c8fbbe12f51a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.15
+      value: 6.06
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fbe68f75ba3dc6b48a72c8fbbe12f51a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3002,7 +3029,7 @@ GameObject:
   - component: {fileID: 501181535}
   - component: {fileID: 501181534}
   m_Layer: 3
-  m_Name: wallroom2 (6)
+  m_Name: wallroom5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3249,7 +3276,7 @@ GameObject:
   - component: {fileID: 607638064}
   - component: {fileID: 607638063}
   m_Layer: 3
-  m_Name: wallroom3
+  m_Name: wallroom10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3912,7 +3939,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 794bea04ab079784bb3cf5cbd56ef32d, type: 2}
     - target: {fileID: 919132149155446097, guid: 46943fd324ed98b408ba006dc45a8223, type: 3}
       propertyPath: m_Name
-      value: mUG
+      value: Mug
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4249,7 +4276,7 @@ GameObject:
   - component: {fileID: 922482728}
   - component: {fileID: 922482727}
   m_Layer: 3
-  m_Name: wallroom3 (2)
+  m_Name: wallroom12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4478,7 +4505,7 @@ GameObject:
   - component: {fileID: 935463364}
   - component: {fileID: 935463363}
   m_Layer: 3
-  m_Name: wallroom4
+  m_Name: wallroom9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4810,7 +4837,7 @@ GameObject:
   - component: {fileID: 1174587107}
   - component: {fileID: 1174587106}
   m_Layer: 3
-  m_Name: wallroom3 (1)
+  m_Name: wallroom11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4918,7 +4945,7 @@ GameObject:
   - component: {fileID: 1192814309}
   - component: {fileID: 1192814308}
   m_Layer: 3
-  m_Name: wallroom2 (2)
+  m_Name: wallroom6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5035,15 +5062,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 073e703736b80463885e969927d36599, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.26
+      value: 31.283
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 073e703736b80463885e969927d36599, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.16
+      value: 1.161
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 073e703736b80463885e969927d36599, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.14
+      value: -26.247
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 073e703736b80463885e969927d36599, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5085,7 +5112,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 073e703736b80463885e969927d36599, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 073e703736b80463885e969927d36599, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1395463015}
   m_SourcePrefab: {fileID: 100100000, guid: 073e703736b80463885e969927d36599, type: 3}
 --- !u!1 &1217600208
 GameObject:
@@ -5471,7 +5501,7 @@ GameObject:
   - component: {fileID: 1315862115}
   - component: {fileID: 1315862114}
   m_Layer: 3
-  m_Name: wallroom3 (4)
+  m_Name: wallroom14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5695,6 +5725,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1395463013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 073e703736b80463885e969927d36599, type: 3}
+  m_PrefabInstance: {fileID: 1199807393}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1395463015
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395463013}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5803138, y: 0.11807489, z: 2.3548648}
+  m_Center: {x: -0.18860999, y: 0.39346883, z: -0.14913958}
 --- !u!1 &1412246899
 GameObject:
   m_ObjectHideFlags: 0
@@ -5708,7 +5764,7 @@ GameObject:
   - component: {fileID: 1412246901}
   - component: {fileID: 1412246900}
   m_Layer: 3
-  m_Name: wallroom3 (3)
+  m_Name: wallroom13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6611,7 +6667,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6b204b0af897a0641a827725b886426e, type: 2}
     - target: {fileID: 919132149155446097, guid: fbe68f75ba3dc6b48a72c8fbbe12f51a, type: 3}
       propertyPath: m_Name
-      value: grandmaphotowrap (3)
+      value: cowpainting
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6631,7 +6687,7 @@ GameObject:
   - component: {fileID: 1776849737}
   - component: {fileID: 1776849736}
   m_Layer: 3
-  m_Name: wallroom2 (1)
+  m_Name: wallroom8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6943,7 +6999,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c3999ae85b6d4944bb15aafbedde2be4, type: 2}
     - target: {fileID: 919132149155446097, guid: fbe68f75ba3dc6b48a72c8fbbe12f51a, type: 3}
       propertyPath: m_Name
-      value: grandmaphotowrap (2)
+      value: dollpainting
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8291,7 +8347,7 @@ GameObject:
   - component: {fileID: 2078594329}
   - component: {fileID: 2078594328}
   m_Layer: 3
-  m_Name: wallroom2 (3)
+  m_Name: wallroom4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8597,7 +8653,7 @@ GameObject:
   - component: {fileID: 2119569458}
   - component: {fileID: 2119569457}
   m_Layer: 3
-  m_Name: wallroom2 (5)
+  m_Name: wallroom3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
