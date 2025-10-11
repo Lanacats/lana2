@@ -248,7 +248,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 2
@@ -293,8 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292a06f8caf25423eb6544d9311085f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivityX: 1
-  sensitivityY: 1
+  sensitivityX: 0.5
+  sensitivityY: 0.5
   cameraRoot: {fileID: 2753977492857004358}
 --- !u!114 &8248387450541998010
 MonoBehaviour:
