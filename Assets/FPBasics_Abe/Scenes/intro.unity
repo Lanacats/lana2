@@ -1701,6 +1701,7 @@ GameObject:
   - component: {fileID: 900106132}
   - component: {fileID: 900106131}
   - component: {fileID: 900106130}
+  - component: {fileID: 900106133}
   m_Layer: 5
   m_Name: Button
   m_TagString: GameController
@@ -1822,6 +1823,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900106128}
   m_CullTransparentMesh: 1
+--- !u!114 &900106133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900106128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc6699ec708bc2489866a50fa836ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: level one
+  delay: 0
 --- !u!1 &917265735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bdb55dd913be0492fbb88bc529cb5661, type: 3}
@@ -1968,7 +1983,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 900106129}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1714359733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3404,11 +3419,14 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 00adc4450329b4b219bb5d52d7b8d2c6, type: 2}
     - target: {fileID: 919132149155446097, guid: bdb55dd913be0492fbb88bc529cb5661, type: 3}
       propertyPath: m_Name
-      value: MainDoor (1)
+      value: MainDoor Exit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bdb55dd913be0492fbb88bc529cb5661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1170906063}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bdb55dd913be0492fbb88bc529cb5661, type: 3}
       insertIndex: -1
@@ -3482,6 +3500,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextSceneName: level one
   delay: 3
+--- !u!4 &1714359733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bdb55dd913be0492fbb88bc529cb5661, type: 3}
+  m_PrefabInstance: {fileID: 1714359728}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1722502342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5096,7 +5119,6 @@ SceneRoots:
   - {fileID: 2043476843}
   - {fileID: 2015182885}
   - {fileID: 1519148640}
-  - {fileID: 1170906063}
   - {fileID: 1714359728}
   - {fileID: 1806696066}
   - {fileID: 776346770}
