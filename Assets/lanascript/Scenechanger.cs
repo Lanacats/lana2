@@ -9,6 +9,16 @@ public class SceneTransition : MonoBehaviour
     [Tooltip("Optional delay before loading the scene (in seconds).")]
     public float delay = 0f;
 
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            LoadNextScene();
+        }
+    }
+
+
     // Call this method to trigger the scene transition
     public void LoadNextScene()
     {
