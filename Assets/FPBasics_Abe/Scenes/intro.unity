@@ -3198,8 +3198,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.1126432, y: 6.7665663, z: 4.44832}
-  m_Center: {x: -2.5563183, y: 0, z: 6.624634e-10}
+  m_Size: {x: 1.51208, y: 6.7665663, z: 4.386177}
+  m_Center: {x: -0.25603715, y: 0, z: -0.03107749}
 --- !u!1001 &1722502342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3311,6 +3311,14 @@ PrefabInstance:
     - target: {fileID: 2753977492857004358, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821417639109173467, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: sensitivityX
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821417639109173467, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: sensitivityY
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: moveSpeed
