@@ -6440,12 +6440,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 073e703736b80463885e969927d36599, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1395463019}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 073e703736b80463885e969927d36599, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1395463020}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 073e703736b80463885e969927d36599, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1395463022}
   m_SourcePrefab: {fileID: 100100000, guid: 073e703736b80463885e969927d36599, type: 3}
 --- !u!1 &1217600208
 GameObject:
@@ -7125,49 +7119,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1395463020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395463013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c4d0094c2705645ac6e08cae35b6eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectName: FPSPlayer
-  textToDisplay: :)
-  textContainer: {fileID: 1999441609}
-  textMesh: {fileID: 1395463022}
 --- !u!4 &1395463021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 073e703736b80463885e969927d36599, type: 3}
   m_PrefabInstance: {fileID: 1199807393}
   m_PrefabAsset: {fileID: 0}
---- !u!102 &1395463022
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395463013}
-  m_Text: Read me
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 1
-  m_Anchor: 3
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 10
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 12800000, guid: cbde192095409494e80438bbca662979, type: 3}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4294967295
 --- !u!1 &1412246899
 GameObject:
   m_ObjectHideFlags: 0
