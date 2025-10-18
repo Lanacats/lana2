@@ -571,10 +571,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 12ae3ac8abbb05a45a9cca85be432903, type: 3}
+      propertyPath: m_Name
+      value: Art1
+      objectReference: {fileID: 0}
     - target: {fileID: -1461304994638716399, guid: 12ae3ac8abbb05a45a9cca85be432903, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 72b7e8e77908dd249b19a65d37ad2520, type: 2}
+    - target: {fileID: -516098083770646512, guid: 12ae3ac8abbb05a45a9cca85be432903, type: 3}
+      propertyPath: m_Name
+      value: Art2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 12ae3ac8abbb05a45a9cca85be432903, type: 3}
       propertyPath: m_Name
       value: tvfbx
@@ -4425,8 +4433,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.53311, y: 2.7211204, z: 2.6704988}
-  m_Center: {x: -0.7665513, y: 0.052775536, z: -0.49189073}
+  m_Size: {x: 4.142449, y: 2.7211204, z: 3.084229}
+  m_Center: {x: -1.5712177, y: 0.052775536, z: -0.28502652}
 --- !u!82 &727948989
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5032,7 +5040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fc1910d385944c13beb83a337586df3, type: 3}
       propertyPath: m_Name
-      value: painosilly
+      value: Pianopicture
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5419,9 +5427,9 @@ Light:
   m_GameObject: {fileID: 922935748}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 0
+  m_Type: 2
   m_Color: {r: 0.6603774, g: 0.62416565, b: 0.62175155, a: 1}
-  m_Intensity: 150
+  m_Intensity: 50
   m_Range: 15.094819
   m_SpotAngle: 112.308914
   m_InnerSpotAngle: 44.73273
@@ -5484,7 +5492,7 @@ Transform:
   m_GameObject: {fileID: 922935748}
   serializedVersion: 2
   m_LocalRotation: {x: 0.50531864, y: -0.42748407, z: 0.64863604, w: 0.37574163}
-  m_LocalPosition: {x: 18.52, y: 7.31, z: 2.02}
+  m_LocalPosition: {x: 19.51, y: 7.69, z: 2.21}
   m_LocalScale: {x: 77.42727, y: 100.763954, z: 74.272156}
   m_ConstrainProportionsScale: 0
   m_Children: []

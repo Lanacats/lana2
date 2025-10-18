@@ -779,8 +779,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6282269, y: 6.9427567, z: 5.1169558}
-  m_Center: {x: -0.5833598, y: 0.2288404, z: -0.40805823}
+  m_Size: {x: 1.4067254, y: 6.9427567, z: 5.1169558}
+  m_Center: {x: -0.972608, y: 0.2288404, z: -0.4080582}
 --- !u!1001 &398190336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1229,8 +1229,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.8332842, y: 7.394184, z: 3.6989963}
-  m_Center: {x: -0.29361153, y: 0.09248977, z: -0.09626269}
+  m_Size: {x: 1.7125094, y: 7.394184, z: 3.6989963}
+  m_Center: {x: -0.7332229, y: 0.09248977, z: -0.0962627}
 --- !u!4 &577781211 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2753977492857004358, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
@@ -2017,8 +2017,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.65706426, y: 7.464551, z: 4.362209}
-  m_Center: {x: -0.52180386, y: 0.13861692, z: -0.13315657}
+  m_Size: {x: 1.6612526, y: 7.464551, z: 4.362209}
+  m_Center: {x: -1.0238955, y: 0.13861692, z: -0.13315657}
 --- !u!1 &1176072052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: bdb55dd913be0492fbb88bc529cb5661, type: 3}
@@ -2078,8 +2078,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.71134365, y: 8.586188, z: 6.0347986}
-  m_Center: {x: 0.14432974, y: -0.66592145, z: -0.7716148}
+  m_Size: {x: 1.5395939, y: 8.586188, z: 6.0347986}
+  m_Center: {x: -0.26979488, y: -0.66592145, z: -0.77161455}
 --- !u!82 &1189857434
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2891,8 +2891,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.70961744, y: 3.367462, z: 3.0970488}
-  m_Center: {x: -0.43089062, y: 1.1837323, z: 0.25385702}
+  m_Size: {x: 1.2940121, y: 3.367462, z: 3.0970488}
+  m_Center: {x: -0.7230907, y: 1.1837323, z: 0.25385702}
 --- !u!82 &1519148646
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3695,8 +3695,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.51208, y: 6.7665663, z: 4.386177}
-  m_Center: {x: -0.25603715, y: 0, z: -0.03107749}
+  m_Size: {x: 1.4135387, y: 6.7665663, z: 3.931691}
+  m_Center: {x: -1.1544693, y: 0, z: 0.1961663}
 --- !u!1001 &1722502342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3914,6 +3914,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1580878234}
     - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -3937,7 +3941,8 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 964407592358205473, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
