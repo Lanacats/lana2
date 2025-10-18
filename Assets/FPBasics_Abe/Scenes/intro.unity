@@ -3185,7 +3185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpHeight: 2
-  gravity: -9.8
+  gravity: -4
   groundCheck: {fileID: 318477332}
   groundDistance: 0.4
   groundMask:
@@ -3816,6 +3816,10 @@ PrefabInstance:
     - target: {fileID: 2821417639109173467, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: sensitivityY
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: gravity
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3271387553590950314, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: moveSpeed
