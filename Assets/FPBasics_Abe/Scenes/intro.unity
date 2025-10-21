@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1000, y: 900}
@@ -318,7 +318,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -3651,27 +3651,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.93792003
+      value: 0.83015317
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1057305
+      value: 0.97868216
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.032045
+      value: 0.9134632
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.54
+      value: -19.540009
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.93
+      value: -24.929993
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.65
+      value: 27.650002
       objectReference: {fileID: 0}
     - target: {fileID: 1435568193541185536, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3775,7 +3775,7 @@ PrefabInstance:
       objectReference: {fileID: 1580878233}
     - target: {fileID: 7454345892662675143, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_Camera
@@ -3873,8 +3873,7 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 964407592358205473, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -5011,6 +5010,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2043476843}
+  - {fileID: 1722502342}
+  - {fileID: 169473760}
   - {fileID: 2015182885}
   - {fileID: 1519148640}
   - {fileID: 1714359728}
@@ -5019,10 +5020,8 @@ SceneRoots:
   - {fileID: 1723016729}
   - {fileID: 1405073728}
   - {fileID: 398190336}
-  - {fileID: 1722502342}
   - {fileID: 1512869924}
   - {fileID: 589086537}
   - {fileID: 774166063}
   - {fileID: 1798535255}
   - {fileID: 1585459983}
-  - {fileID: 169473760}

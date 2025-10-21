@@ -154,7 +154,6 @@ GameObject:
   - component: {fileID: 2821417639109173467}
   - component: {fileID: 8248387450541998010}
   - component: {fileID: 3271387553590950314}
-  - component: {fileID: 964407592358205473}
   m_Layer: 0
   m_Name: FPSPlayer
   m_TagString: Player
@@ -363,7 +362,7 @@ MonoBehaviour:
     m_ActionName: 'Player/Interact[/Keyboard/e]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 964407592358205473}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: FirstPersonCrouch, Assembly-CSharp
         m_MethodName: onCrouch
         m_Mode: 0
@@ -470,26 +469,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 0
---- !u!114 &964407592358205473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964928818892683004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a4e363f5013f4e809519f74cceed96c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCrouching: 0
-  ceilingCheck: {fileID: 2972362209356804284}
-  ceilingMask:
-    serializedVersion: 2
-    m_Bits: 0
-  crouchingHeight: 1
-  cameraRoot: {fileID: 2753977492857004358}
-  transitionDuration: 0.2
 --- !u!1 &7396944440811187664
 GameObject:
   m_ObjectHideFlags: 0
