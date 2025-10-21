@@ -259,7 +259,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 494482268}
-  m_Father: {fileID: 2043476843}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3773,6 +3773,10 @@ PrefabInstance:
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 1580878233}
+    - target: {fileID: 7454345892662675143, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8248387450541998010, guid: 971a907025bf34a559c2edf821c9eea5, type: 3}
       propertyPath: m_Camera
       value: 
@@ -4707,8 +4711,7 @@ Transform:
   m_LocalPosition: {x: -19.54, y: -24.93, z: 27.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 169473760}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2043476844
@@ -5022,3 +5025,4 @@ SceneRoots:
   - {fileID: 774166063}
   - {fileID: 1798535255}
   - {fileID: 1585459983}
+  - {fileID: 169473760}
